@@ -1,0 +1,71 @@
+﻿<Window x:Class="BallThrowing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BallThrowing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="950" Width="1900" MaxHeight="950" MaxWidth="1900" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="500"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <!--left main grid-->
+        <Border Grid.Row="0" BorderBrush="Black" BorderThickness="4">
+            <Canvas x:Name="MainCanvas">
+                <Image FocusVisualStyle ="{DynamicResource BorderFocusDisable}" x:Name="Platform" Source="Resources/platform.png" Canvas.Left="570" Canvas.Top="802" KeyDown="PlatformMove" Visibility="Visible" Focusable="True" KeyUp="PlatformMoveKeyUp"/>
+                <Image x:Name="Ball" Source="Resources/Ball.png" Canvas.Left="674" Canvas.Top="535" Visibility="Hidden"></Image>
+                <!--<Rectangle Fill="#FFECBF49" Height="55" Canvas.Left="500" Stroke="Black" Canvas.Top="200" Width="200"></Rectangle>-->
+            </Canvas>
+        </Border>
+        <!--left main grid-->
+
+        <!--right main grid-->
+        <Border Grid.Column="1" BorderBrush="Black" BorderThickness="4">
+            <Grid Grid.Column="1" Width="500">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="140"></RowDefinition>
+                    <RowDefinition Height="90"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <!--lifes grid-->
+                <Grid Height="140" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="Life1" Grid.Column="0" Source="Resources/Life.png" HorizontalAlignment="Right" Width="70" Height="70"></Image>
+                    <Image x:Name="Life2" Grid.Column="1" Source="Resources/Life.png" HorizontalAlignment="Center" VerticalAlignment="Center" Width="70" Height="70"></Image>
+                    <Image x:Name="Life3" Grid.Column="2" Source="Resources/Life.png" HorizontalAlignment="Left" VerticalAlignment="Center" Width="70" Height="70"></Image>
+                </Grid>
+                <!--lifes grid-->
+
+                <TextBox Grid.Row="1" Text="LIFES" FontSize="51.66" TextAlignment="Center" Foreground="Red" FontFamily="Phantom Lord Lite" BorderBrush="{x:Null}" Focusable="False"/>
+                <TextBox Grid.Row="2" Text="SCORE: 0" FontSize="51.66" TextAlignment="Center" Foreground="Black" FontFamily="Chinese Rocks" BorderBrush="{x:Null}" VerticalAlignment="Bottom" Margin="0,0,0,15" Focusable="False"/>
+                <TextBox x:Name="ScoreCount" Grid.Row="2" Text="0" FontSize="51.66" TextAlignment="Left" Foreground="Black" FontFamily="Chinese Rocks" BorderBrush="{x:Null}" VerticalAlignment="Bottom" Margin="306,0,80,17" Focusable="False"/>
+                <TextBox Grid.Row="3" Text="HIGH SCORE:" FontSize="51.66" TextAlignment="Center" Foreground="Black" FontFamily="Chinese Rocks" BorderBrush="{x:Null}" Focusable="False"/>
+                <TextBox x:Name="HighScoreCountText" Grid.Row="3" Text="0" FontSize="51.66" Foreground="Black" FontFamily="Chinese Rocks" BorderBrush="{x:Null}" Focusable="False" Margin="366,0,0,75" HorizontalAlignment="Left" Width="124"/>
+                <Button Style="{DynamicResource PlayButtonControlsPanel}" Grid.Row="4" x:Name="StartButtonControlsPanel" Width="267" Height="95" Click="StartGame"></Button>
+                <Button Style="{DynamicResource RestartButtonControlsPanel}" Grid.Row="5" x:Name="RestartButtonControlsPanel" Width="212" Height="74" VerticalAlignment="Bottom" Click="RestartButton"></Button>
+                <Label x:Name="Timer" HorizontalContentAlignment="Center" Grid.Row="6" Content="00:00" FontSize="57.77px" FontFamily="Chinese Rocks" Foreground="#7b7b7b" VerticalAlignment="Center" BorderBrush="White" Focusable="False"/>
+                <Border Grid.Row="7" BorderThickness="2" BorderBrush="Black">
+                    <Button x:Name="InformationAbout" Content="More Information About Us" FontSize="24px" VerticalAlignment="Center" BorderBrush="{x:Null}" FontFamily="Chinese Rocks" Click="InformationAboutUs">
+                    </Button>
+                </Border>
+
+            </Grid>
+        </Border>
+        <!--right main grid-->
+
+
+    </Grid>
+</Window>

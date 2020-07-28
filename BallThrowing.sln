@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallThrowing", "BallThrowing\BallThrowing.csproj", "{431C1FD5-919F-462A-A96B-D6EA5D228F3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{431C1FD5-919F-462A-A96B-D6EA5D228F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431C1FD5-919F-462A-A96B-D6EA5D228F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431C1FD5-919F-462A-A96B-D6EA5D228F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431C1FD5-919F-462A-A96B-D6EA5D228F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6817CB8E-D947-4B97-B5CE-527ECD1A694D}
+	EndGlobalSection
+EndGlobal

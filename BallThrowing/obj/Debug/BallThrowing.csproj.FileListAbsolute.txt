@@ -1,0 +1,16 @@
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\bin\Debug\BallThrowing.exe.config
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\bin\Debug\BallThrowing.exe
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\bin\Debug\BallThrowing.pdb
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\BallThrowing.csprojAssemblyReference.cache
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\MainWindow.g.cs
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\App.g.cs
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\BallThrowing_MarkupCompile.cache
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\BallThrowing_MarkupCompile.lref
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\MainWindow.baml
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\BallThrowing.g.resources
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\BallThrowing.Properties.Resources.resources
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\BallThrowing.csproj.GenerateResource.cache
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\BallThrowing.csproj.CoreCompileInputs.cache
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\BallThrowing.exe
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\BallThrowing.pdb
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Debug\App.baml

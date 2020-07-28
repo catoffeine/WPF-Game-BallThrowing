@@ -1,0 +1,16 @@
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\bin\Release\BallThrowing.exe.config
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\bin\Release\BallThrowing.exe
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\bin\Release\BallThrowing.pdb
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\BallThrowing.csprojAssemblyReference.cache
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\MainWindow.g.cs
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\App.g.cs
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\BallThrowing_MarkupCompile.cache
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\BallThrowing_MarkupCompile.lref
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\App.baml
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\MainWindow.baml
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\BallThrowing.g.resources
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\BallThrowing.Properties.Resources.resources
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\BallThrowing.csproj.GenerateResource.cache
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\BallThrowing.csproj.CoreCompileInputs.cache
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\BallThrowing.exe
+D:\Admin_OLD\All projects\c#\learning_projects\wpf\BallThrowing\BallThrowing\obj\Release\BallThrowing.pdb
